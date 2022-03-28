@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#222"
     android:gravity="center"
     android:orientation="vertical">
 
@@ -10,12 +11,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TIRO"
+        android:textColor="#fff"
         android:textSize="70sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Time Is Running Out"
+        android:textColor="#fff"
         android:textSize="20sp" />
 
     <LinearLayout
@@ -25,19 +28,21 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="20dp"
-        android:background="#f6f6f6"
+        android:background="#555"
         android:orientation="vertical"
         android:padding="20dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Heure de coucher" />
+            android:text="Heure de coucher"
+            android:textColor="#fff" />
 
         <TextView
             android:id="@+id/textViewSleepTime"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#fff"
             android:textSize="30sp"
             android:textStyle="bold"
             tools:text="00:00" />
@@ -51,19 +56,21 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
-        android:background="#f6f6f6"
+        android:background="#555"
         android:orientation="vertical"
         android:padding="20dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nb heures réservées (ex : repas)" />
+            android:text="Nb heures réservées (ex : repas)"
+            android:textColor="#fff" />
 
         <TextView
             android:id="@+id/textViewReservedHours"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="#fff"
             android:textSize="30sp"
             android:textStyle="bold"
             tools:text="3" />
@@ -75,12 +82,14 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="Il reste"
+        android:textColor="#fff"
         android:textSize="20sp" />
 
     <TextView
         android:id="@+id/textViewResultTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#fff"
         android:textSize="40sp"
         tools:text="5h45" />
 
